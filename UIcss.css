@@ -1,0 +1,244 @@
+﻿
+
+#diksha{
+    color:red;
+}
+.topbar{
+    overflow: hidden;
+    background-color: #14d0fa;
+
+}
+
+#nav{
+    float: right;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+
+.topbar a{
+    float: left;
+    color: black;
+    padding: 35px 20px;
+}
+.pfont{
+    font-family:'Comic Sans MS',cursive,sans-serif;
+}
+.topbar a:hover{
+    background-color: #0026ff;
+    color: black;
+}
+#docum{
+    font-family: Impact,sans-serif;
+    font-size:30px;
+}
+
+.floating-box{
+    float:left;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+#logo{
+    font-family: Arial sans-serif Gadugi;
+    font-size: 50px;
+
+}
+
+#clear{
+float: right;                     /*Shifts the hide button to the rightmost side of the div element*/
+    margin-right: 20px;                       /*Leaves a margin of 10 pixel from the right border*/
+    cursor: pointer;                        /* For converting arrow mouse pointer to a hand cursor*/
+    background-color: green;
+      border: none;
+      
+       padding: 15px 32px;                  /*Spacing between the text and the border*/
+
+}
+
+
+.usr{
+    font-size: 250%;
+}
+
+.txt{
+    width:100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.usr{
+    font-family: 'Comic Sans MS';
+}
+
+.login{
+    position: absolute ;
+    width: 300px;
+    height: 200px;
+    top: 20%;
+    left: 40%;
+    margin-left: -20px;
+    margin-top: -25px;
+    border-color: #e3e3e3;
+    border-width: 20px;
+    border-style: groove;
+    
+    /*border-radius: 5px;*/
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+   
+}
+#loginbtn{
+    width:100px;
+    height: 30px;
+    background-color:none;
+}
+
+#dropdown{
+    font-family:'Lucida Calligraphy';
+    font-size: 30px;
+
+}
+
+#dd{
+    height: 40px;
+    width:80px;
+}
+
+
+#div3{
+    padding-top: 40px;
+    margin-left: 800px;
+}
+
+.text1{
+    height: 30px;
+}
+
+
+
+#docbar{
+     
+    /*padding-bottom: 200px;
+    width: 350px;
+    height: 10px;
+    color: white;
+    background-color: #555;*/
+      background-color: grey;
+    width: 20%;
+    height: 200px;
+    padding-bottom: 400px;
+}
+
+
+#hide{
+    float: right;                     /*Shifts the hide button to the rightmost side of the div element*/
+    margin-right: 20px;                       /*Leaves a margin of 10 pixel from the right border*/
+    cursor: pointer;                        /* For converting arrow mouse pointer to a hand cursor*/
+    background-color: green;
+      border: none;
+      
+       padding: 15px 32px;                  /*Spacing between the text and the border*/
+
+}
+#show{
+    display: none;
+     float: right;                     /*Shifts the hide button to the rightmost side of the div element*/
+    margin-right: 20px;                       /*Leaves a margin of 10 pixel from the right border*/
+    cursor: pointer;                        /* For converting arrow mouse pointer to a hand cursor*/
+    background-color: green;
+      border: none;
+      
+       padding: 15px 32px;  
+}
+#submit{
+    
+    
+    margin-right: 20px;                       /*Leaves a margin of 10 pixel from the right border*/
+    cursor: pointer;                        /* For converting arrow mouse pointer to a hand cursor*/
+    background-color: green;
+      border: none;
+      width: 80px;
+      height: 30px;
+    
+}
+
+#documents{
+
+    padding-top: 80px;  
+}
+
+li{
+    margin: 10px;                       /*To introduce a space of 10px between each row of li */
+}
+
+
+
+#div2{
+     background-color: grey;
+    width: 20%;
+    height: 200px;
+    padding-bottom: 400px;
+}
+
+
+#p1{
+    padding-top: 30px;
+}
+
+
+/*design for try lock beow the doocuments block*/
+
+/*.try{
+    padding-top:0px;
+    margin-top: 0px;
+    margin-left: 400px;
+    background-color: green;
+    width: 20%;
+    height: 200px;
+}*/
+
+
+/*Code for responsive */
+
+@media only screen and (max-width: 780px) {
+    .option{
+       
+        font-size: 10px;
+       width: 150px;
+    }
+
+    #docum{
+        font-size: 10px;
+    }
+    .selelction{
+        
+        width:50px  !important;
+        height:20px !important;
+
+    }
+    body {
+        background-color: lightblue;       
+    }
+}
+
+
+
+
+
+
+/*for pop up*/
+
+
+
+
+
+
+
+
+

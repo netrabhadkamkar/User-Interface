@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> </title>
+
+
+    <!--//<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>-->
+
+
+    <script src="jquery-1.10.2.min.js"></script>
+    <link href="UIcss.css" rel="stylesheet" type="text/css" />
+         
+    <script type="text/javascript" src="UIjs.js"></script>  
+    
+
+    
+    
+    
+    <!--<script src="jquery-ui-1.8.24.min.js"></script>-->
+</head>
+<body>
+    <link rel="stylesheet" href="uiCSSFile.css" type="text/css" />
+    <!--<script type="text/javascript">
+        alert("A+B=" + add(50, 100));
+    </script>-->
+
+    <div class="topbar" id="up">
+        <a id="logo" href="#System login time"> UNMASK IT!!!! </a>
+        <a id="nav" href="login.html">BACK</a>
+       
+    </div>
+
+
+
+        <div id="docbar" class="floating-box">
+            <p id="docum">Documents</p> 
+            <button id="hide"> Hide </button>
+            <button id="show"> Show </button>
+            <ul id="documents">
+                <li id="fbi"><a href="#">FBI</a></li>
+                <li id="cia"><a href="#">CIA</a></li>
+                <li id="se"><a href="#">SPECTRAL AGENCY</a></li>
+                
+            </ul>
+
+            <p id="p1" class="pfont">Click on the links to see the files contained</p>
+        </div>
+
+
+        <div class="floating-box" id="div2">
+            <div id="static1">
+            <p class="pfont">Currently you have choosen 0 documents to view</p>
+                <p class="pfont">Click on the links to see the contained documents</p>
+                </div>
+
+            <div id="fbi1">
+                <p>The documents in FBI are listed below </p>
+                <i>Click on the documents to view the contents</i>
+
+               
+                    <ul>
+
+                        
+                        <li><a href="fbi1.txt">fbi1</a></li>
+                        <li><a href="fbi2.txt">fbi2</a></li>                    
+                        <li><a href="fbi3.txt">fbi3</a></li>
+                    
+
+                     </ul>
+
+            </div>
+
+
+
+
+
+
+            <div id="cia1">
+                <p>The documents in CIA are listed below </p>
+                <i>Click on the documents to view the contents</i>
+                <ul>
+                    <li><a href="cia1.txt">cia1</a></li>
+                    <li><a href="cia2.txt">cia2</a></li>
+                    <li><a href="cia3.txt">cia3</a></li>
+                </ul>
+
+            </div>                
+
+
+            <div id="se1">
+                <p>The documents in SE are listed below </p>
+                <i>Click on the documents to view the contents</i>
+                <ul>
+                    <li><a href="se1.txt">se1</a></li>
+                    <li><a href="se2.txt">se2</a></li>
+                    <li><a href="se3.txt">se3</a></li>
+                </ul>                
+            </div>                   
+            
+            <button id="clear">Clear </button>
+
+        </div>
+    <div class="floating-box1" id="div3">
+
+        <label id="dropdown" class="option">Select your option:</label>
+      
+           <select id="dd" class="selection" onchange="ddselection(this.value)">
+
+               <option value="date">Date</option>
+               <option value="location">Location</option>
+               <option value="phone">Phone</option>
+               <option value="person">Person</option>
+
+           </select>
+
+           <!--<button id="submit" onclick="Add()"> Submit </button>-->
+           <div id="locations">
+               <ul>
+                   <li>Afghanistan</li>
+                   <li>Cairo</li>
+                   <li>Canada</li>
+                   <li>Egypt</li>
+                   <li>Denmark</li>
+                   <li>Germany</li>
+
+               </ul>
+           </div>
+           <div id="date">
+               <ul>
+                   <li>Sun April 28 2001</li>
+                   <li>Mon Jan 2 2012</li>
+                   <li>Wed Jun 26 2012 </li>
+                   <li>Thurs Mar 12 2004</li>
+                   <li>Sat Oct 13 2014</li>
+                   <li>Germany</li>
+
+               </ul>
+           </div>
+           <div id="phone">
+               <ul>
+                   <li> 1070173</li>
+                   <li> 703-659-2317</li>
+                   <li>706-437-6673</li>
+                   <li>713-556-9213</li>
+                   <li>718-352-8479</li>
+                   <li>804-759-6302</li>
+
+               </ul>
+           </div>
+           <div id="person">
+               <ul>
+                   <li>Abdul Ramazi</li>
+                   <li>Hada</li>
+                   <li>Hani</li>
+                   <li>Jamal khalifa</li>
+                   <li>Mark Davis</li>
+                   <li>Masood Yasir</li>
+               </ul>
+           </div>
+
+       
+       
+
+</div>
+
+
+
+
+</body>
+</html>

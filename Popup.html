@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+   
+
+
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="NetraStyleSheet.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <title>
+        Popup
+    </title>
+</head>
+<body>
+    <select name="ddlNames" id="ddlNames">
+        <option value=" ">Select Size</option>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="large">Large</option>
+    </select>
+    <br />
+    <br />
+    <input type="button" value="Select" onclick="SetName();" />
+    <script type="text/javascript">
+        function SetName() {
+            if (window.opener != null && !window.opener.closed) {
+                var txtName = window.opener.document.getElementById("txtName");
+                txtName.value = document.getElementById("ddlNames").value;
+            }
+            window.close();
+        }
+    </script>
+</body>
+</html>
